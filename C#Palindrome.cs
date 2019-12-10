@@ -3,25 +3,33 @@ using System.Threading;
 using System.Collections.Generic;
 
 
-class Program
+public class Checker
 {
- public static bool PalindromeSeeker(string palindrome)
+    public string Palindrome;
+
+    public Checker(string palindrome)
+    {
+        Palindrome = palindrome;
+    }
+public bool palindromeSeeker()
         {
-            string initial = palindrome.Substring(0, palindrome.Length/2);
-            char[] arr = palindrome.ToCharArray();
+            string initial = Palindrome.Substring(0, Palindrome.Length/2);
+            char[] arr = Palindrome.ToCharArray();
             Array.Reverse(arr);
             string compare = new string(arr);
             string check = compare.Substring(0, compare.Length/2);
             return initial.Equals(check);
         }
-static void Main()
+}
+class Program
+{
+public static void Main()
     {
         Console.WriteLine("Enter a word to check if its a Palindrome!");
-        string word = Console.ReadLine();
-        word = newword.PalindromeSeeker();
-
-        Console.WriteLine(PalindromeSeeker);
-
-        
+        string palindrome = Console.ReadLine();
+        Checker checker = new Checker(palindrome);
+        bool palindromeChecker = checker.palindromeSeeker();
+        Console.WriteLine(palindromeChecker);
+    
     }
 }

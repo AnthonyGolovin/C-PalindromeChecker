@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AGOLO\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/Guest/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AGOLO\\desktop\\C#Palindrome\\C#Palindrome.csproj",
+      "projectUniqueName": "/Users/Guest/Desktop/C-PalindromeChecker/C#Palindrome.csproj",
       "projectName": "C#Palindrome",
-      "projectPath": "C:\\Users\\AGOLO\\desktop\\C#Palindrome\\C#Palindrome.csproj",
-      "packagesPath": "C:\\Users\\AGOLO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AGOLO\\desktop\\C#Palindrome\\obj\\",
+      "projectPath": "/Users/Guest/Desktop/C-PalindromeChecker/C#Palindrome.csproj",
+      "packagesPath": "/Users/Guest/.nuget/packages/",
+      "outputPath": "/Users/Guest/Desktop/C-PalindromeChecker/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\AGOLO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/Guest/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
